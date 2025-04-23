@@ -5,6 +5,9 @@
     <classes>
       <class name="com.toolsqa.qa.testcases.ElementsPageTest">
         <methods>
+          <include name="setup"/>
+          <include name="validatePageImage"/>
+          <include name="validateCheckBoxMenu"/>
           <include name="validateTextBoxMenu"/>
         </methods>
       </class> <!-- com.toolsqa.qa.testcases.ElementsPageTest -->

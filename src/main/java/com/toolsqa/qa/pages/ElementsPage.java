@@ -22,6 +22,21 @@ public class ElementsPage extends TestBase {
 	@FindBy(xpath = "//span[text()= 'Web Tables']")
 	WebElement webTablesMenu;
 
+	@FindBy(xpath = "//span[text()= 'Buttons']")
+	WebElement ButtonsMenu;
+
+	@FindBy(xpath = "//span[text()= 'Links']")
+	WebElement LinksMenu;
+
+	@FindBy(xpath = "//span[text()= 'Broken Links - Images']")
+	WebElement BrokenLinksMenu;
+
+	@FindBy(xpath = "//span[text()= 'Upload and Download']")
+	WebElement UploadandDownloadMenu;
+
+	@FindBy(xpath = "//span[text()= 'Dynamic Properties']")
+	WebElement DynamicPropertiesMenu;
+
 	public ElementsPage() {
 		// Initializing page factory
 		PageFactory.initElements(driver, this);
@@ -45,8 +60,77 @@ public class ElementsPage extends TestBase {
 		try {
 			checkBoxMenu.click();
 			return new ElementCheckBoxPage();
-		}catch(Exception e)
-		{
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+
+	public ElementCheckBoxPage validateRadioButtonMenuSelection() {
+		try {
+			radioButtonMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+
+	public ElementCheckBoxPage validateWebTablesMenuSelection() {
+		try {
+			webTablesMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+
+	public ElementCheckBoxPage validateButtonsMenuSelection() {
+		try {
+			ButtonsMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+
+	public ElementCheckBoxPage validateLinksMenuSelection() {
+		try {
+			LinksMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+	
+	public ElementCheckBoxPage validateBrokenLinksMenuSelection() {
+		try {
+			BrokenLinksMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+	
+	public ElementCheckBoxPage validateUploadDownloadMenuSelection() {
+		try {
+			UploadandDownloadMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
+			System.out.println("Failed to click the button");
+		}
+		return new ElementCheckBoxPage();
+	}
+	
+	public ElementCheckBoxPage validateDynamicPropertiesMenuSelection() {
+		try {
+			DynamicPropertiesMenu.click();
+			return new ElementCheckBoxPage();
+		} catch (Exception e) {
 			System.out.println("Failed to click the button");
 		}
 		return new ElementCheckBoxPage();

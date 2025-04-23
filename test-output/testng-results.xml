@@ -1,28 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-21T13:38:04 IST" name="Default suite" finished-at="2025-04-21T13:38:11 IST" duration-ms="6931">
+  <suite started-at="2025-04-23T16:23:00 IST" name="Default suite" finished-at="2025-04-23T16:23:14 IST" duration-ms="13467">
     <groups>
     </groups>
-    <test started-at="2025-04-21T13:38:04 IST" name="Default test" finished-at="2025-04-21T13:38:11 IST" duration-ms="6931">
+    <test started-at="2025-04-23T16:23:00 IST" name="Default test" finished-at="2025-04-23T16:23:14 IST" duration-ms="13467">
       <class name="com.toolsqa.qa.testcases.ElementsPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@68c9133c]" started-at="2025-04-21T13:38:04 IST" name="setup" finished-at="2025-04-21T13:38:11 IST" duration-ms="6548" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:00 IST" name="setup" finished-at="2025-04-23T16:23:13 IST" duration-ms="13079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatePageImage()[pri:2, instance:com.toolsqa.qa.testcases.ElementsPageTest@68c9133c]" started-at="2025-04-21T13:38:11 IST" name="validatePageImage" finished-at="2025-04-21T13:38:11 IST" duration-ms="54" status="PASS">
+        <test-method signature="validatePageImage()[pri:2, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:13 IST" name="validatePageImage" finished-at="2025-04-23T16:23:14 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageImage -->
-        <test-method signature="validateTextBoxMenu()[pri:3, instance:com.toolsqa.qa.testcases.ElementsPageTest@68c9133c]" started-at="2025-04-21T13:38:11 IST" name="validateTextBoxMenu" finished-at="2025-04-21T13:38:11 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateTextBoxMenu()[pri:3, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateTextBoxMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTextBoxMenu -->
-        <test-method signature="validateCheckBoxMenu()[pri:4, instance:com.toolsqa.qa.testcases.ElementsPageTest@68c9133c]" started-at="2025-04-21T13:38:11 IST" name="validateCheckBoxMenu" finished-at="2025-04-21T13:38:11 IST" duration-ms="153" status="PASS">
+        <test-method signature="validateCheckBoxMenu()[pri:4, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateCheckBoxMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckBoxMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateRadioButtonMenu()[pri:5, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateRadioButtonMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButtonMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateWebTablesMenu()[pri:6, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateWebTablesMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWebTablesMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateButtonsMenu()[pri:7, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateButtonsMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateButtonsMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateLinksMenu()[pri:8, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateLinksMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinksMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateBrokenLinksMenu()[pri:9, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateBrokenLinksMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinksMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validateUploadDownloadMenu()[pri:10, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateUploadDownloadMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUploadDownloadMenu -->
+        <test-method signature="validateDynamicPropertiesMenu()[pri:11, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="validateDynamicPropertiesMenu" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDynamicPropertiesMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.toolsqa.qa.testcases.ElementsPageTest@5524cca1]" started-at="2025-04-23T16:23:14 IST" name="teardown" finished-at="2025-04-23T16:23:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.toolsqa.qa.testcases.ElementsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

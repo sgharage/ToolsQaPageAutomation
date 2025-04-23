@@ -1,10 +1,12 @@
 package com.toolsqa.qa.testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.toolsqa.qa.base.TestBase;
+import com.toolsqa.qa.pages.ElementCheckBoxPage;
 import com.toolsqa.qa.pages.ElementsPage;
 
 public class ElementsPageTest extends TestBase {
@@ -38,7 +40,45 @@ public class ElementsPageTest extends TestBase {
 	public void validateCheckBoxMenu() {
 		ItemSelection.validateCheckBoxMenuSelection();
 	}
+
+	@Test(priority = 5)
+	public void validateRadioButtonMenu() {
+		ItemSelection.validateRadioButtonMenuSelection();
+	}
+
+	@Test(priority = 6)
+	public void validateWebTablesMenu() {
+		ItemSelection.validateWebTablesMenuSelection();
+	}
+
+	@Test(priority = 7)
+	public void validateButtonsMenu() {
+		ItemSelection.validateButtonsMenuSelection();
+	}
+
+	@Test(priority = 8)
+	public void validateLinksMenu() {
+		ItemSelection.validateLinksMenuSelection();
+	}
+
+	@Test(priority = 9)
+	public void validateBrokenLinksMenu() {
+		ItemSelection.validateBrokenLinksMenuSelection();
+	}
+
+	@Test(priority = 10)
+	public void validateUploadDownloadMenu() {
+		ItemSelection.validateUploadDownloadMenuSelection();
+	}
 	
-	
+	@Test(priority = 11)
+	public void validateDynamicPropertiesMenu() {
+		ItemSelection.validateDynamicPropertiesMenuSelection();
+	}
+
+	@AfterMethod
+	public void teardown() {
+		driver.quit();
+	}
 
 }
