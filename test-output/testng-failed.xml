@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.toolsqa.qa.testcases.ElementsPageTest">
+      <class name="com.toolsqa.qa.testcases.ElementTextBoxTest">
         <methods>
-          <include name="setup"/>
-          <include name="validatePageImage"/>
-          <include name="validateCheckBoxMenu"/>
-          <include name="validateTextBoxMenu"/>
+          <include name="validateEmail"/>
         </methods>
-      </class> <!-- com.toolsqa.qa.testcases.ElementsPageTest -->
+      </class> <!-- com.toolsqa.qa.testcases.ElementTextBoxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -74,6 +74,7 @@ public class ElementsPageTest extends TestBase {
 	@Test(priority = 11)
 	public void validateDynamicPropertiesMenu() {
 		ItemSelection.validateDynamicPropertiesMenuSelection();
+		
 	}
 
 	@AfterMethod

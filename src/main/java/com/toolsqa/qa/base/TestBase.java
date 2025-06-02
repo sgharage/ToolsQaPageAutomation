@@ -76,5 +76,11 @@ public class TestBase {
 		initialisationMethod();
 		driver.get(prop.getProperty("ElementPageUrl"));
 	}
+	
+	public static void ElementtextboxInitialisation()
+	{
+		initialisationMethod();
+		driver.get(prop.getProperty("ElementTextBoxUrl"));
+	}
 
 }
