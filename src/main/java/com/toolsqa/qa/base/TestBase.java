@@ -82,5 +82,11 @@ public class TestBase {
 		initialisationMethod();
 		driver.get(prop.getProperty("ElementTextBoxUrl"));
 	}
+	
+	public void ElementCheckBoxInitialisation()
+	{
+		initialisationMethod();
+		driver.get(prop.getProperty("ElementCheckBoxUrl"));
+	}
 
 }

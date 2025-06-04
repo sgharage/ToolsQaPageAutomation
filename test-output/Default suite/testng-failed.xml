@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.toolsqa.qa.testcases.ElementTextBoxTest">
+      <class name="com.toolsqa.qa.testcases.ElementCheckBoxTest">
         <methods>
-          <include name="validateEmail"/>
+          <include name="setup"/>
+          <include name="PageHeader"/>
         </methods>
-      </class> <!-- com.toolsqa.qa.testcases.ElementTextBoxTest -->
+      </class> <!-- com.toolsqa.qa.testcases.ElementCheckBoxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

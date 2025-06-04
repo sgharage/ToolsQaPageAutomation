@@ -1,16 +1,10 @@
 package com.toolsqa.qa.testcases;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.toolsqa.qa.base.TestBase;
 import com.toolsqa.qa.pages.ElementTextBoxPage;
-import com.toolsqa.qa.pages.ElementsPage;
 
 public class ElementTextBoxTest extends TestBase {
 	ElementTextBoxPage InputData;

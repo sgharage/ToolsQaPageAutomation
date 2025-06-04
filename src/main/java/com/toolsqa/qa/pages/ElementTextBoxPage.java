@@ -24,10 +24,9 @@ public class ElementTextBoxPage extends TestBase {
 	public ElementTextBoxPage() {
 		// Initializing page factory
 		PageFactory.initElements(driver, this);
-		// WebElement nameTextBox = driver.findElement(By.id("userName"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
-		
+
 	}
 
 	public void validateFullName() {
@@ -88,5 +87,5 @@ public class ElementTextBoxPage extends TestBase {
 			System.out.println("Button is not Enable");
 		}
 	}
-	
+
 }
