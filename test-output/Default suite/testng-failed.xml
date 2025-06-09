@@ -6,7 +6,7 @@
       <class name="com.toolsqa.qa.testcases.ElementCheckBoxTest">
         <methods>
           <include name="setup"/>
-          <include name="PageHeader"/>
+          <include name="expandButtonValidation"/>
         </methods>
       </class> <!-- com.toolsqa.qa.testcases.ElementCheckBoxTest -->
     </classes>

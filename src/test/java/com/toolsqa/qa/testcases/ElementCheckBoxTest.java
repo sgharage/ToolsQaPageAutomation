@@ -25,5 +25,17 @@ public class ElementCheckBoxTest extends TestBase {
 	public void PageHeader() {
 		InputDataCheckBox.validatePageHeader();
 	}
+	
+	@Test(priority = 2)
+	public void expandButtonValidation()
+	{
+		InputDataCheckBox.validateExpandALL();
+	}
+	
+	@Test(priority = 3)
+	public void collapseButtonValidation()
+	{
+		InputDataCheckBox.validateCollapseALL();
+	}
 
 }
